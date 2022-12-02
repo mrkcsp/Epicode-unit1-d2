@@ -1,0 +1,48 @@
+#container{
+    padding: 25px 25% ;
+}
+
+banner{
+    text-align: center;
+    flex-direction: column;
+}
+
+#banner-container{
+    background-color: rgba(240, 231, 207, 0.438);
+    color: #107777;
+}
+
+#logo{
+    width: 35%;
+}
+
+#banner-text{
+    font-weight: bold ;
+}
+
+h1{
+    text-align: center;
+}
+
+#img-rights{
+    text-align: center;
+    color: rgba(209, 209, 233, 0.836);
+}
+
+a{
+    color: #107777;
+}
+
+#featured-text{
+    color: #db825fe0;
+}
+
+#featured-border{
+    border-left: solid 2px #db825fe0;
+    padding-left:10px ;
+}
+
+hr{
+    color: white;
+    
+}
