@@ -43,6 +43,9 @@ a{
 }
 
 hr{
-    color: white;
-    
+
+        height:2px;
+        border-width:0;
+        color:#107777;
+        background-color:#107777; 
 }
