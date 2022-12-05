@@ -15,20 +15,33 @@ banner{
     
 }
 
+
+
 #banner-container{
     background-color: rgba(240, 231, 207, 0.438);
     color: #107777;
     border-top: solid 2px rgba(231, 216, 176, 0.603);
     width: 100%;
     text-align: center;
+    margin-top: 5px ;
 }
 
 #img-logo{
     width: 300px;
 }
 
+
 #focaccia{
     border-radius: 10px;
+}
+
+iframe{
+    width: auto;
+    height: 500px;
+    border-radius: 10px;
+    border:none;
+    -webkit-box-shadow: 0px -1px 31px 7px rgba(0,0,0,0.56); 
+    box-shadow: 0px -1px 31px 7px rgba(0,0,0,0.56);
 }
 
 #banner-text{
