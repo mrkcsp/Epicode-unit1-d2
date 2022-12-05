@@ -1,19 +1,34 @@
 #container{
-    padding: 25px 25% ;
+    padding-top: 25px ; 
+}
+
+div{
+    display: flex;
+   flex-direction: column;
+   padding: 0 25vh ;
 }
 
 banner{
-    text-align: center;
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
 #banner-container{
     background-color: rgba(240, 231, 207, 0.438);
     color: #107777;
+    border-top: solid 2px rgba(231, 216, 176, 0.603);
+    width: 100%;
+    text-align: center;
 }
 
-#logo{
-    width: 35%;
+#img-logo{
+    width: 300px;
+}
+
+#focaccia{
+    border-radius: 10px;
 }
 
 #banner-text{
@@ -43,8 +58,8 @@ a{
 }
 
 hr{
-
         height:2px;
+        width: 100%;
         border-width:0;
         color:#107777;
         background-color:#107777; 
